@@ -1,6 +1,4 @@
-"""
-general graphics
-"""
+# General graphics.
 
-draw_background():
+def draw_background():
 	pass
