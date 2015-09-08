@@ -1,4 +1,7 @@
 import pygame
+import game_engine
+import graphics
+import main_menu
  
 # Define some colors
 BLACK = (0, 0, 0)
@@ -32,6 +35,9 @@ while not done:
     # First, clear the screen to white. Don't put other drawing commands
     # above this, or they will be erased with this command.
     screen.fill(WHITE)
+	
+	# Draw main menu
+	main_menu.draw_main_menu()
  
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
