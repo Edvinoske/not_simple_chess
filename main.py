@@ -23,6 +23,8 @@ while not done:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             done = True
+        elif event.type == pygame.MOUSEBUTTONUP:
+            print event
 
     # --- Game logic should go here
 
